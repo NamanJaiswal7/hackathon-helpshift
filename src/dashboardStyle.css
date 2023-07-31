@@ -1,0 +1,35 @@
+/* Dashboard.css */
+.dashboard-container {
+  padding: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 16px;
+}
+
+.custom-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-member-button {
+  margin-top: 16px;
+}
+
+/* Customize modal styles */
+.ant-modal-content {
+  border-radius: 8px;
+}
+
+.ant-modal-body {
+  padding: 20px;
+}
+
+.ant-modal-footer {
+  display: none;
+}
